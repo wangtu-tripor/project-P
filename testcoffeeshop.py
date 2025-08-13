@@ -13,6 +13,6 @@ price = 8
 print('How many orders of ' + order + ' would you like?')
 quantity = input()
 total = price * int(quantity)
-print('Thank you ' + name + ', your total is:$' + str(total))
-print('Sounds good ' + name + ", we'll have your " + quantity + ' ' + order + ' ready for you in a moment.')
+print("Thank you " + name + ', your total is:$' + str(total))
+print("Sounds good " + name + ", we'll have your " + quantity + ' ' + order + ' ready for you in a moment.')
 
